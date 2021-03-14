@@ -11,7 +11,7 @@ export default () => (
       />
       <div className="mt-8 sm:mt-0 sm:ml-8 flex flex-col justify-center">
         <p className="text-gray-900 leading-tight text-2xl md:text-3xl">
-          Hello, I'm
+          Hi, I'm
         </p>
         <h1 className="text-gray-900 leading-tight font-semibold text-4xl md:text-5xl">
           Xiaokai Li
