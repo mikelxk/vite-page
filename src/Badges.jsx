@@ -6,11 +6,10 @@ import {
   FaEnvelope,
 } from "react-icons/fa";
 
-const Badge = (href, Icon) => (
+const Badge = ({ Icon, href }) => (
   <a
     href={href}
     target="_blank"
-    aria-label={Icon.name}
     rel="noopener noreferrer"
     className="text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
   >
@@ -19,9 +18,9 @@ const Badge = (href, Icon) => (
 );
 export default () => (
   <div className="mt-10 flex gap-x-16">
-    {Badge("https://github.com/mikelxk", FaGithub)}
-    {Badge("https://twitter.com/mike_lxk", FaTwitter)}
-    {Badge("mailto:mike.lxk@gmail.com", FaEnvelope)}
-    {Badge("https://mikelxk.github.io/", FaBroadcastTower)}
+    <Badge Icon={FaGithub} href="https://github.com/mikelxk" />
+    <Badge Icon={FaTwitter} href="https://twitter.com/mike_lxk" />
+    <Badge Icon={FaEnvelope} href="mailto:mike.lxk@gmail.com" />
+    <Badge Icon={FaBroadcastTower} href="https://mikelxk.github.io/" />
   </div>
 );

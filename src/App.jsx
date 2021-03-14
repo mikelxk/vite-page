@@ -1,12 +1,10 @@
 import React from "react";
-import Figure from "./Figure.jsx";
+import Figure from "./Figure";
 
-function App() {
+export default () => {
   return (
     <div className>
       <Figure />
     </div>
   );
-}
-
-export default App;
+};
