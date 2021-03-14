@@ -10,6 +10,7 @@ const Badge = (href, Icon) => (
   <a
     href={href}
     target="_blank"
+    aria-label={Icon.name}
     rel="noopener noreferrer"
     className="text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
   >
