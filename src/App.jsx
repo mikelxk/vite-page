@@ -3,7 +3,7 @@ import Figure from "./Figure";
 
 export default () => {
   return (
-    <div className>
+    <div>
       <Figure />
     </div>
   );
