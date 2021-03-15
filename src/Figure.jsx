@@ -18,10 +18,10 @@ export default () => (
         </h1>
       </div>
     </div>
-    <div className="mt-10 text-lg leading-7 text-gray-900">
-      I'm currently an undergraduate at University of Florida. I like C++ and
-      TypeScript.
-    </div>
+    <p className="mt-10 text-lg leading-7 text-gray-900">
+      I'm currently an undergraduate at University of Florida. I'm interested in
+      C++ and TypeScript.
+    </p>
     <Badges />
   </div>
 );
